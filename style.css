@@ -1,0 +1,462 @@
+/* CSS Mini Reset */
+
+html, body, div, form, fieldset, legend, label {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    text-align: left;
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption {
+    font-weight: normal;
+}
+
+img {
+    border: 0;
+}
+
+/* My code */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f5f8fa;
+}
+
+/* Header*/
+.page-main-header {
+    background: #fff;
+    box-shadow: 0 0 10px 1px rgba(70, 102, 242, 0.05);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page-main-header .header-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin: 1rem;
+}
+
+/*Search*/
+
+.form-control-plaintext {
+    border: 1px solid #e4f2fb;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 50px;
+    background-color: #f5f8fa;
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1.5;
+    width: 100%;
+    overflow: visible;
+}
+
+.search {
+    margin: 1rem 1rem 1rem 3rem;
+
+}
+
+.search-input {
+    border-radius: 10%;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 7rem
+}
+
+.nav-menu-right {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0 1rem 0 auto;
+}
+
+.nav-menu-right li {
+    margin: 1rem;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #5b63fe;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+}
+
+
+.big-dot {
+    height: 140px;
+    width: 140px;
+    background-color: #e8ebee;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1rem;
+}
+
+/*Body*/
+.wrapper {
+    /*height: calc( 100vh - 3rem);*/
+    display: flex;
+    justify-content: right;
+}
+
+.page-menu {
+    display: flex;
+    flex: 1 0 auto;
+    margin: 0 0.5rem 0 0;
+    height: 3.9375rem;
+    background: #fff;
+    box-shadow: 0 0 10px 1px rgba(70, 102, 242, 0.05);
+}
+
+.page-menu-mini {
+    display: flex;
+    flex: 1 0 auto;
+    margin: 0 0.5rem 0 0.5rem;
+    height: 3.9375rem;
+    background: #fff;
+    box-shadow: 0 0 10px 1px rgba(70, 102, 242, 0.05);
+}
+
+.page-body {
+    box-shadow: 0 0 10px 1px rgba(70, 102, 242, 0.05);
+    width: 100%;
+}
+
+.page-body-wrapper {
+    flex: 1 0 auto;
+    margin: 1rem 0 0 1rem;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "item item2 item3 item4" "item5 item6 item7 item8" "item9 item10 item11 item12";
+}
+
+.frames-style {
+    background: #fff;
+    margin: 0.5rem;
+    width: 18.75rem;
+    height: 25rem;
+}
+
+.item {
+    grid-area: item;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.item8 {
+    grid-area: item8;
+}
+
+.item9 {
+    grid-area: item9;
+}
+
+.item10 {
+    grid-area: item10;
+}
+
+.item11 {
+    grid-area: item11;
+}
+
+.item12 {
+    grid-area: item12;
+}
+
+.item-frame {
+    text-align: center;
+    margin: 1rem;
+}
+
+.item-frame h4 {
+    margin: 0;
+}
+
+.item-frame p {
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+.button-card {
+    padding-top: 0.4rem;
+}
+
+.to-card {
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #f75757;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+}
+
+.to-card:hover {
+    background: #c22b2b;
+    text-decoration: none;
+}
+
+.price {
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #78d25b;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+}
+
+.price:hover {
+    background: #58ad3b;
+    text-decoration: none;
+}
+
+.button-price {
+    text-align: right;
+    padding-top: 7px;
+}
+
+/*Menus*/
+.menu {
+    margin: auto 1rem;
+}
+
+/*Sidebar*/
+.sidebar {
+    margin-top: 1rem;
+    background: #fff;
+    width: 320px;
+}
+
+.sidebar-sorting {
+    margin-top: 1rem;
+    background: #fff;
+    width: 320px;
+}
+
+/*Text*/
+.span-text {
+    text-transform: uppercase;
+    color: #f75757;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style: none;
+    margin: 2rem;
+    text-decoration: none;
+    padding: 0;
+
+}
+
+.sidebar-menu li {
+    width: 100%;
+    list-style: none;
+    margin: 1rem;
+}
+
+.sidebar-menu a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #b0cad1;
+
+}
+
+#span-active-temp {
+    color: #f75757;
+}
+
+/*Filter*/
+.filter-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.filter-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 1rem;
+    background-color: #eee;
+}
+
+.filter-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.filter-container input:checked ~ .checkmark {
+    background-color: #f75757;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.filter-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.filter-container .checkmark:after {
+    left: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.filter {
+    margin: 1rem;
+}
+
+/*Star rating*/
+.stars-div {
+    margin: 0.5rem;
+}
+
+#ratings-form .stars {
+    background: url("stars.png") repeat-x 0 0;
+    width: 150px;
+    margin: 0 auto;
+}
+
+#ratings-form .stars input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#ratings-form .stars input[type="radio"].star-5:checked ~ span {
+    width: 100%;
+}
+
+#ratings-form .stars input[type="radio"].star-4:checked ~ span {
+    width: 80%;
+}
+
+#ratings-form .stars input[type="radio"].star-3:checked ~ span {
+    width: 60%;
+}
+
+#ratings-form .stars input[type="radio"].star-2:checked ~ span {
+    width: 40%;
+}
+
+#ratings-form .stars input[type="radio"].star-1:checked ~ span {
+    width: 20%;
+}
+
+#ratings-form .stars label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-indent: -999em;
+    float: left;
+    position: relative;
+    z-index: 10;
+    background: transparent !important;
+    cursor: pointer;
+}
+
+#ratings-form .stars label:hover ~ span {
+    background-position: 0 -30px;
+}
+
+#ratings-form .stars label.star-5:hover ~ span {
+    width: 100% !important;
+}
+
+#ratings-form .stars label.star-4:hover ~ span {
+    width: 80% !important;
+}
+
+#ratings-form .stars label.star-3:hover ~ span {
+    width: 60% !important;
+}
+
+#ratings-form .stars label.star-2:hover ~ span {
+    width: 40% !important;
+}
+
+#ratings-form .stars label.star-1:hover ~ span {
+    width: 20% !important;
+}
+
+#ratings-form .stars span {
+    display: block;
+    width: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background: url("img/stars.png") repeat-x 0 -60px;
+    -webkit-transition: -webkit-width 0.5s;
+    -moz-transition: -moz-width 0.5s;
+    -ms-transition: -ms-width 0.5s;
+    -o-transition: -o-width 0.5s;
+    transition: width 0.5s;
+}
